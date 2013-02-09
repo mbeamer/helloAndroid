@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="match_parent" android:orientation="vertical">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="This is my playground.  Figuring things out here."/>
+<TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tableLayout1">
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Starting Text" android:id="@+id/edtSource"></EditText>
+    <Button android:text="Copy" android:layout_height="wrap_content" android:keepScreenOn="true" android:layout_width="wrap_content" android:id="@+id/btnTransfer" android:onClick="Click"></Button>
+    <Button android:text="Append" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnAppend"></Button>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:text="EditText" android:id="@+id/edtDestination"></EditText>
+</TableLayout>
+</LinearLayout>
